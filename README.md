@@ -10,5 +10,4 @@ In Module 16: Tic-Tac-Toe Exercise With React, We managed state across parent an
 
 # Roadmap for future improvements
 
-I added a reset feature and removed the ability for the x and o to be clicked again. Future improvements for this game code be a timer and score keeper.
-This build is on html and vanilla javascript.
+I added a reset feature and removed the ability for the x and o to be clicked again. A roadmap for future improvements for this game code would be a timer and scorekeeper. This build is on html and vanilla javascript.
