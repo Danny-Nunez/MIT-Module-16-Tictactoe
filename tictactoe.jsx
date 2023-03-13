@@ -3,7 +3,13 @@ const Board = () => {
     const [gameState, setGameState] = React.useState([]);
     const [winner, setWinner] = React.useState(null);
   
-    const nextPlayer = player === 1 ? 'Player O' : 'Player X';
+    const nextPlayer = (
+        <div>
+          {player === 1 ? <img class="iconx" src="./x.gif" alt="Player X" /> : <img class="iconx" src="./oicon.gif" alt="Player O" />}
+        </div>
+      );
+
+    
     let status = `Winner is ${winner ? winner : checkForWinner(gameState)}`;
   
     const takeTurn = (id) => {
@@ -49,7 +55,7 @@ const Board = () => {
           {renderSquare(8)}
         </div>
         <div id="turn">
-        <p><h1 class="header">Next Player: {nextPlayer}</h1></p>
+        <p><h1 class="header">Next Player{nextPlayer}</h1></p>
         </div>
         <div id="info">
           <h1 class="header">{status}</h1>
