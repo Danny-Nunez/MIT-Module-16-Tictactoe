@@ -4,9 +4,11 @@
 
 View Live Demo https://mit-module-16-tictactoe.vercel.app/
 
-# Road Map -TicTacToe
+# Module 16 TicTacToe Introduction
 
 In Module 16: Tic-Tac-Toe Exercise With React, We managed state across parent and child components. We also worked through the component lifecycle, by mounting (creating) components on the DOM, updating them, and unmounting(deleting) them from the DOM so they're no longer displayed.
+
+# Roadmap for future improvements
 
 I added a reset feature and removed the ability for the x and o to be clicked again. Future improvements for this game code be a timer and score keeper.
 This build is on html and vanilla javascript.
